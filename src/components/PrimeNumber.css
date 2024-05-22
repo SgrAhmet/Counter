@@ -1,4 +1,5 @@
 .mainDiv{
+    position: relative;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -19,7 +20,7 @@
 
 .textArea{
     
-
+    user-select:none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     position: absolute;
     top: 60px;
@@ -47,6 +48,10 @@
     border-radius: 100%;
 }
 
+.mainButton:active{
+    background-color: rgb(167, 167, 167);
+}
+
 .resetButton{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     position: absolute;
@@ -57,4 +62,31 @@
     width: 50px;
     background-color: rgb(181, 181, 181);
     border: 6px solid rgb(152, 152, 152);
+}
+
+.resetButton:active{
+    background-color: rgb(167, 167, 167);
+}
+
+.menuDiv{
+    display:none;
+    z-index: 5;
+    position: absolute;
+    background-color: black;
+    height: 500px;
+    width: 300px;
+}
+
+
+.menuIcon{
+position: absolute;
+top: 10px;
+left: 10px;
+font-size: 64px;
+
+}
+
+.closeIcon{
+    color: white;
+    font-size: 64px;
 }
