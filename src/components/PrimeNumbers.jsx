@@ -4,17 +4,24 @@ import { useState } from 'react'
 import "./PrimeNumber.css"
 
 const PrimeNumbers = () => {
-    
+    const [counter, setCounter] = useState(0)
      
+    const handleMainButton =()=>{
+       setCounter(counter + 1)
+    }
+
+    const handleResetButton =()=>{
+       setCounter(0)
+    }
 
 
   return (
     <div className='mainDiv'>
 
     <div className='body'>
-        <p className='textArea'>124</p>
-          <button className='mainButton'></button>
-          <button className='resetButton'></button>
+        <p className='textArea'>{counter}</p>
+          <button onClick={handleMainButton} className='mainButton'></button>
+          <button onClick={handleResetButton} className='resetButton'></button>
     </div>
 
     
