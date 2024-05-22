@@ -12,7 +12,7 @@ const PrimeNumbers = () => {
     <div className='mainDiv'>
 
     <div className='body'>
-        <p className='textArea'>deneme</p>
+        <p className='textArea'>124</p>
           <button className='mainButton'></button>
     </div>
 
