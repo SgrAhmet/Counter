@@ -14,6 +14,7 @@ const PrimeNumbers = () => {
     <div className='body'>
         <p className='textArea'>124</p>
           <button className='mainButton'></button>
+          <button className='resetButton'></button>
     </div>
 
     
