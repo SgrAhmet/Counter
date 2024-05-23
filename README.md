@@ -2,7 +2,7 @@
 
 ### Project-Link
 
-https://sgrahmet.github.io/Hangman/
+https://sgrahmet.github.io/Counter/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
